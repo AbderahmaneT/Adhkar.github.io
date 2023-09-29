@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Creations Demo';
+    src: url('Creattion\ Demo.otf') format('opentype');
+    /* Add more font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pointart Sans-Serif Bold';
+    src: url('./pointart-sans-serif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal; /* Adjust if needed */
+  }
+body{
+    background-image: url('../Images/islamic-xptqk5xw6adpezzv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+/*header*/
+.header{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(90deg, #000 34.76%, rgba(0, 0, 0, 0.00) 58.82%), url("../Images/faruk-kaymak-CNVvDjVDiVI-unsplash.jpg"), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 2px rgba(255, 255, 255, 0.82);
+}
+
+.header h1{
+    color: #FFF9F9;
+    font-family: Inknut Antiqua;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    Random Adhkar Generator
+    width: 535px;
+    height: 55px;
+    flex-shrink: 0;
+    display: inline;
+}
+
+
+.logo{
+    padding: 13px;
+    width: 55px;
+    height: 55px;
+    top: 150px;
+    display: flex;
+}
+
+/*category of El Dhikr*/
+.category{
+    margin:0 auto;
+    border-radius: 38px;
+    background-color: #FFF9F9;
+    opacity: 60%; 
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    margin-top: 170px;
+}
+
+.category h1{
+    text-align: center;
+
+    opacity: 1;
+    font-size: 2.8vw;
+}
+
+/*content of El Dhikr*/
+.content{
+    margin: 0 auto;
+    margin-top: 72px;
+    border-radius: 38px;
+    background-color: #FFF9F9;
+    opacity: 60%; 
+    width: auto;
+    height: auto;
+    max-width: 75%;
+}
+
+.content h1{
+    text-align: center;7
+    padding: auto;
+
+    opacity: 1;
+    font-size: 2.8vw;
+}
+/*generating button*/
+.launch{
+    background-color: #000;
+    text-align: center;
+    margin-top: 70px;
+    color: #FFF9F9;
+    border-radius: 38px;
+    opacity:80%;
+    width: 200px;
+    height: 50px;
+    font-family: Inknut Antiqua;
+    letter-spacing: 2px;
+    font-size: 23px;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.09rem solid #fff;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 1rem #FFF9F9,
+              0 0 0.8rem #FFF9F9,
+              0 0 1.8rem #FFF9F9,
+              inset 0 0 1.0rem #FFF9F9; 
+}
+
+.launch:hover{
+    background-color: #FFF9F9;
+    color: #000;
+    cursor: pointer;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.09rem solid #000;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #000,
+              0 0 .2rem #000,
+              0 0 1rem #000,
+              0 0 0.8rem #000,
+              0 0 1.8rem #000,
+              inset 0 0 1.0rem #000; 
+}
+
+/*footer */
+.footer{
+    font-family: 'Creations Demo';
+    margin-top: 90px;
+    font-size: 50px;
+    color: #FFF9F9;
+}
